@@ -10,131 +10,134 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
+        "label": "Intro",
         "href": "/docs/intro",
         "docId": "intro"
       },
       {
         "type": "category",
-        "label": "Tutorial - Basics",
+        "label": "Components",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page"
+            "label": "Box",
+            "href": "/docs/components/Box",
+            "docId": "components/Box"
           },
           {
             "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document"
+            "label": "Button",
+            "href": "/docs/components/Button",
+            "docId": "components/Button"
           },
           {
             "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post",
-            "docId": "tutorial-basics/create-a-blog-post"
+            "label": "CheckBoxGroup",
+            "href": "/docs/components/CheckBoxGroup",
+            "docId": "components/CheckBoxGroup"
           },
           {
             "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features",
-            "docId": "tutorial-basics/markdown-features"
+            "label": "Heading",
+            "href": "/docs/components/Heading",
+            "docId": "components/Heading"
           },
           {
             "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site",
-            "docId": "tutorial-basics/deploy-your-site"
+            "label": "Input",
+            "href": "/docs/components/Input",
+            "docId": "components/Input"
           },
           {
             "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations",
-            "docId": "tutorial-basics/congratulations"
+            "label": "Layout",
+            "href": "/docs/components/Layout",
+            "docId": "components/Layout"
+          },
+          {
+            "type": "link",
+            "label": "RadioGroup",
+            "href": "/docs/components/RadioGroup",
+            "docId": "components/RadioGroup"
+          },
+          {
+            "type": "link",
+            "label": "SettingBlock",
+            "href": "/docs/components/SettingBlock",
+            "docId": "components/SettingBlock"
+          },
+          {
+            "type": "link",
+            "label": "Toast",
+            "href": "/docs/components/Toast",
+            "docId": "components/Toast"
           }
         ],
-        "href": "/docs/category/tutorial---basics"
-      },
-      {
-        "type": "category",
-        "label": "Tutorial - Extras",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions"
-          },
-          {
-            "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site"
-          }
-        ],
-        "href": "/docs/category/tutorial---extras"
+        "href": "/docs/category/components"
       }
     ]
   },
   "docs": {
+    "components/Box": {
+      "id": "components/Box",
+      "title": "Box",
+      "description": "Box is a layout component that provides a simple way to contain content.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/Button": {
+      "id": "components/Button",
+      "title": "Button",
+      "description": "Button is Button.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/CheckBoxGroup": {
+      "id": "components/CheckBoxGroup",
+      "title": "CheckBoxGroup",
+      "description": "CheckBoxGroup is a component that allows the user to select one or more options from a list of checkboxes.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/Heading": {
+      "id": "components/Heading",
+      "title": "Heading",
+      "description": "Heading is a component for creating headings.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/Input": {
+      "id": "components/Input",
+      "title": "Input",
+      "description": "Input is a component that allows the user to input text with animated placeholder.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/Layout": {
+      "id": "components/Layout",
+      "title": "Layout",
+      "description": "Layout is a React component that wraps the entire screen with theme context.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/RadioGroup": {
+      "id": "components/RadioGroup",
+      "title": "RadioGroup",
+      "description": "RadioGroup is a component that allows the user to select one option from a list of options.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/SettingBlock": {
+      "id": "components/SettingBlock",
+      "title": "SettingBlock",
+      "description": "SettingBlock is a component that displays a setting block which usually contains a couple of list items.",
+      "sidebar": "tutorialSidebar"
+    },
+    "components/Toast": {
+      "id": "components/Toast",
+      "title": "Toast",
+      "description": "Toast is a component that displays a message to the user globally.",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/congratulations": {
-      "id": "tutorial-basics/congratulations",
-      "title": "Congratulations!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-blog-post": {
-      "id": "tutorial-basics/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-document": {
-      "id": "tutorial-basics/create-a-document",
-      "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-page": {
-      "id": "tutorial-basics/create-a-page",
-      "title": "Create a Page",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/deploy-your-site": {
-      "id": "tutorial-basics/deploy-your-site",
-      "title": "Deploy your site",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/markdown-features": {
-      "id": "tutorial-basics/markdown-features",
-      "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/manage-docs-versions": {
-      "id": "tutorial-extras/manage-docs-versions",
-      "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/translate-your-site": {
-      "id": "tutorial-extras/translate-your-site",
-      "title": "Translate your site",
-      "description": "Let's translate docs/intro.md to French.",
+      "title": "Intro",
+      "description": "Nonce design is an UI library for building user interfaces on react-native. It's written in pure typescript.",
       "sidebar": "tutorialSidebar"
     }
   }

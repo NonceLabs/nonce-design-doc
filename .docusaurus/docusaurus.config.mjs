@@ -4,15 +4,15 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Nonce Design",
-  "tagline": "Nonce design for react-native",
+  "title": "NonceDesign",
+  "tagline": "NonceDesign for react-native",
   "url": "https://design.noncelabs.xyz",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "noncelabs",
+  "projectName": "nonce-design",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -40,9 +40,9 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "Nonce Design",
+      "title": "NonceDesign",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "NonceDesign",
         "src": "img/logo.svg"
       },
       "items": [
@@ -50,12 +50,7 @@ export default {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
+          "label": "Documentation"
         },
         {
           "href": "https://github.com/NonceLabs/nonce-design",
@@ -81,10 +76,6 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
               "label": "Discord",
               "href": "https://discordapp.com/invite/docusaurus"
             },
@@ -108,7 +99,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 NonceDesign, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {
