@@ -23,4 +23,4 @@ RadioGroup is a component that allows the user to select one option from a list 
 - `keyExtractor`: The function to use to extract the key from the option.
 - `value`: The value of the radio group.
 - `onChange`: The function to call when the value changes.
-- `renderOption`: **[optional]** The function to use to render the option.
+- `renderOption`: The function to use to render the option.

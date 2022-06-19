@@ -29,3 +29,15 @@ This library depends on `react-native-svg`, use `expo install react-native-svg` 
   // Your content here or navigation here
 </Layout>
 ```
+
+## Expo Example
+
+<div data-snack-id="@chezhe-ark/nonce-design-example" data-snack-platform="web" data-snack-preview="true" data-snack-theme="light" style={{
+  overflow:'hidden',
+  background:'#F9F9F9',
+  border:'1px solid var(--color-border)',
+  borderRadius:4,
+  height:505,
+  width:'100%'
+}}></div>
+<script async src="https://snack.expo.dev/embed.js"></script>

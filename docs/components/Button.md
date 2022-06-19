@@ -26,3 +26,4 @@ Button is Button.
 - `full`: Whether the button's width as long as parent.
 - `style`: The style of the button.
 - `type`: The type of the button. Can be `default` or `primary`.
+- `backgroundColor`: The background color of the button.

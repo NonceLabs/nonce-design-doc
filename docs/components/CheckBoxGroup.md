@@ -23,4 +23,4 @@ CheckBoxGroup is a component that allows the user to select one or more options 
 - `keyExtractor`: The function to use to extract the key from the option.
 - `value`: The value of the checkbox group.
 - `onChange`: The function to call when the value changes.
-- `renderOption`: **[optional]** The function to use to render the option.
+- `renderOption`: The function to use to render the option.
