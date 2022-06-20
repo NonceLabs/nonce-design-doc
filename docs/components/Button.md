@@ -2,6 +2,10 @@
 
 Button is Button.
 
+## Preview
+
+![Button](@site/static/img/components/button.png)
+
 ## Usage
 
 ```typescript

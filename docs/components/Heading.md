@@ -2,6 +2,10 @@
 
 Heading is a component for creating headings.
 
+## Preview
+
+![Heaidng](@site/static/img/components/heading.png)
+
 ## Usage
 
 ```typescript

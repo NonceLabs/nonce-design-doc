@@ -2,6 +2,10 @@
 
 SettingBlock is a component that displays a setting block which usually contains a couple of list items.
 
+## Preview
+
+![SettingBlock](@site/static/img/components/settingblock.png)
+
 ## Usage
 
 ```typescript

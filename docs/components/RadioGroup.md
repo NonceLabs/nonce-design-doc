@@ -2,6 +2,10 @@
 
 RadioGroup is a component that allows the user to select one option from a list of options.
 
+## Preview
+
+![RadioGroup](@site/static/img/components/radiogroup.png)
+
 ## Usage
 
 ```typescript

@@ -2,6 +2,10 @@
 
 CheckBoxGroup is a component that allows the user to select one or more options from a list of checkboxes.
 
+## Preview
+
+![CheckBoxGroup](@site/static/img/components/checkboxgroup.png)
+
 ## Usage
 
 ```typescript
